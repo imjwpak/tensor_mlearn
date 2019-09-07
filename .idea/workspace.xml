@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84c28552-2b0c-453d-ac42-cfa905e227fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mnist_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mnist_test/fashion_checker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mnist_test/number_checker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorflow_test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensor05day.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tensor05day.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.__init__ (3)">
+  <component name="RunManager" selected="Python.__init__ (4)">
     <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mlearn190907" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="__init__ (4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mlearn190907" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,11 +115,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linear_regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mnist_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear_regression/__init__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnist_test/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__init__ (4)" />
         <item itemvalue="Python.__init__ (3)" />
         <item itemvalue="Python.__init__ (2)" />
         <item itemvalue="Python.iris" />
         <item itemvalue="Python.__init__ (1)" />
-        <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
   </component>
