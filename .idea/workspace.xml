@@ -4,7 +4,7 @@
     <list default="true" id="84c28552-2b0c-453d-ac42-cfa905e227fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorflow_test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorflow_test/mammal.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_test/mammal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_test/web_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_test/web_crawler.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
