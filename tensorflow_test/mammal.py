@@ -2,7 +2,8 @@ class Mammal:
     def __init__(self):
         pass
 
-    def execute(self):
+    @staticmethod
+    def execute():
         import tensorflow as tf
         import numpy as np
         # 원핫 인코딩 예제
@@ -55,7 +56,7 @@ class Mammal:
 
         # 가중치와 편향을 이용해 계산한 결과 값에
         # relu 활성함수
-        # 뉴런 하나를 만들어서 신경망에 다가 넣어준 것
+        # 뉴런 하나를 만들어서 신경망에 넣어준 것
         # nn은 다층 신경망을 통과 시켰다고 이해하면 됨
         L = tf.nn.relu(L)
         model = tf.nn.softmax(L)
@@ -87,7 +88,7 @@ class Mammal:
         print('예측값: ', sess.run(prediction, {X: x_data}))
         print('실제값: ', sess.run(target, {Y: y_data}))
         
-        # tf.argmax : 예측값과 실제값의 행렬에서 tf.argmax를 이용해 가장 큰 값을 가져옴
+        # tf.argmax : 예측값과 실제값의 행렬에서 tf.argmax를 이용해 가장 큰 값의 위치값(인덱스)을 가져옴
         # 예) [[0, 1, 1][1, 0, 0]] -> [1, 0]
         # [[0.2, 0.7, 0.1][0.9, 0.1, 0.]] -> [1, 0]
         is_correct = tf.equal(prediction, target)
@@ -95,13 +96,3 @@ class Mammal:
         print('정확도 : %.2f' % sess.run(accuracy * 100, {X: x_data, Y: y_data}))
 
 
-
-
-
-
-
-
-        
-
-        
-        
